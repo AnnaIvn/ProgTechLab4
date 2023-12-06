@@ -17,7 +17,7 @@ variable "REPOSITORY_URI" {
 }
 
 resource "aws_lightsail_container_service" "flask_application" {
-  name = "flask-app_"
+  name = "flask-app_2"
   power = "nano"
   scale = 1
 
